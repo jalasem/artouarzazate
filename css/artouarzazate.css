@@ -1,0 +1,199 @@
+/*
+    Author: Ajala AbdulSamii Olalekan
+    Email: kgasta@gmail.com
+    Github: github.com/jalasem
+    Note: I have written some custom css here to help you through your design
+*/
+
+nav>.container {
+    width: 95%;
+}
+
+
+/*font size adjustments
+    in your html you can use them for icons and text
+    e.g <i class="icon ion-social-facebook x15"></i> to adjut the font-size of the icon to 1.5rem
+*/
+
+.x1 {
+    font-size: 1rem;
+}
+
+.x15 {
+    font-size: 1.5rem;
+}
+
+.x2 {
+    font-size: 2rem;
+}
+
+.x25 {
+    font-size: 2.5rem;
+}
+
+.x3 {
+    font-size: 3rem;
+}
+
+.x35 {
+    font-size: 3.5rem;
+}
+
+.x4 {
+    font-size: 4rem;
+}
+
+.x45 {
+    font-size: 4.5rem;
+}
+
+.x5 {
+    font-size: 5rem;
+}
+
+.x55 {
+    font-size: 5.5rem;
+}
+
+ul.social i.icon {
+    margin-right: 1rem;
+}
+
+#site-name>img {
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+}
+
+#top-panel {
+    margin-bottom: 1rem;
+}
+
+#top-panel ul.right {
+    margin-right: 3rem;
+    line-height: 1;
+}
+
+#top-panel ul li {
+    display: inline;
+}
+
+#top-panel ul li a {
+    padding: 0.5rem 1rem;
+    font-weight: 300;
+}
+
+.dash-line {
+    border-top: 1px solid rgba(141, 110, 99, 0.75);
+    border-bottom: 1px solid rgba(141, 110, 99, 0.75);
+    height: 10px;
+}
+
+header#site-name h3 {
+    margin: 0;
+    font-style: italic;
+    font-family: 'monotype corsiva', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nav li {
+    display: inline;
+}
+
+#nav li a {
+    padding: 0.5rem 1rem;
+    color: #3E2723;
+}
+
+#nav li a.active {
+    border-bottom: 1px solid #3E2723;
+}
+
+main.container {
+    width: 90%;
+}
+
+section {
+    padding-bottom: 5rem;
+}
+
+#main-categories .card .card-image .card-title {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    padding-top: 25%;
+    font-size: 2.5rem;
+}
+
+section .section-title span {
+    border-bottom: 1px solid #3E2723;
+    padding-bottom: 10px;
+}
+
+#dernieres .section-content {
+    /*margin-top: 3.5rem;*/
+}
+
+section .section-content .col {
+    margin: 3.5rem 0 3rem;
+}
+
+#dernieres .card.horizontal .card-content>p {
+    font-size: large;
+}
+
+#inspiration .card .card-action {
+    min-height: 7rem;
+}
+
+#media .video-container {
+    border: 1rem solid #5D4037;
+}
+
+#footer li {
+    display: inline;
+}
+
+#footer .btn-floating.btn-large {
+    width: 40px;
+    height: 40px;
+    margin-top: -1rem;
+}
+
+#footer .btn-floating.btn-large i {
+    line-height: 40px;
+}
+
+.fence {
+    border-top: 5px double rgba(93, 64, 55, 0.43);
+    border-bottom: 5px double rgba(93, 64, 55, 0.43);
+    height: 5rem;
+}
+
+.fence a.brand-logo {
+    margin-right: -2rem;
+    margin-top: -2.3rem;
+}
+
+.fence li.nolink {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+input#email {
+    border: 1px solid;
+    height: 2.6rem;
+    width: 98%;
+    padding: 0 2%;
+    margin-top: -4px;
+}
+
+#submitEmail {
+    height: 40px;
+    margin-top: 11px !important;
+    line-height: 40px;
+}
+
+#footer {
+    margin-bottom: 0;
+}
