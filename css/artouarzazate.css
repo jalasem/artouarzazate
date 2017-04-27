@@ -301,3 +301,47 @@ ul.pagination {
     font-weight: 500
 
 }
+
+img[alt="Product Picture"] {
+    min-height: 20rem;
+}
+
+#product-alternatives .card .card-content {
+    padding: 8px 15px;
+}
+
+#product-alternatives .section-content span {
+    display: block;
+}
+
+#product-alternatives .section-content span.product-name {
+    font-size: 2rem;
+    line-height: 100%;
+}
+
+#product-alternatives .section-content span.price {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+#search-box {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+#search-box .container {
+    width: 90%;
+}
+
+body.no-scroll {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#search-box input[type="search"] {
+    font-size: 2rem;
+}

@@ -10,10 +10,10 @@
   <link rel="stylesheet" href="css/artouarzazate.css">
 </head>
 
-<body class="grey lighten-5">
+<body class="grey lighten-5 no-scroll">
   <div class="row brown darken-4" id="top-panel">
     <ul class="right">
-      <li><a href="#!" class="white-text">RECHERCHE</a></li>
+      <li><a href="#!" class="white-text"><i class="icon ion-ios-search left"></i>RECHERCHE</a></li>
       <li><a href="#!" class="white-text">CONNEXION</a></li>
       <li><a href="#!" class="white-text">PANIER</a></li>
     </ul>
@@ -44,7 +44,7 @@
       <div class="col s12 m5 l4">
         <img src="./img/grad.jpg" alt="Product Picture" class="responsive-img">
       </div>
-      <div class="col s12 m7 l8 row">
+      <div class="col s12 m7 l8 row no-bottom-margin">
         <div class="col s12">
           <h4 class="product-heading">
             <span class="left">Sac Azura</span>
@@ -54,17 +54,81 @@
           <br>
           <br>
           <h5 class="description"><b>Description</b></h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dolore impedit voluptatum fuga commodi repudiandae, odit ex nisi autem deleniti libero, iusto quod labore accusamus odio cum dicta assumenda non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dolore impedit voluptatum fuga commodi repudiandae, odit ex nisi autem deleniti libero, iusto quod labore accusamus odio cum dicta assumenda non.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dolore impedit voluptatum fuga commodi repudiandae,
+            odit ex nisi autem deleniti libero, iusto quod labore accusamus odio cum dicta assumenda non. Lorem ipsum dolor
+            sit amet, consectetur adipisicing elit. Consequatur dolore impedit voluptatum fuga commodi repudiandae, odit
+            ex nisi autem deleniti libero, iusto quod labore accusamus odio cum dicta assumenda non.</p>
         </div>
         <form class="col s12">
           <div class="row no-bottom-margin">
             <div class="input-field col s6">
-              <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-              </div>
-              <div class="input-field col s6">
-                <input id="last_name" type="text" class="validate">
+              <select>
+                <option value="" disabled selected>Choisis une option</option>
+                <option value="1">Sac Azura - Bleu</option>
+                <option value="2">Sac Azura - Blanc</option>
+              </select>
+            </div>
+            <button class="btn-large col s6 brown darken-3" type="submit">
+              Ajouter au panier
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section id="product-alternatives" class="row">
+      <div class="section-title">
+        <h4 class="center">
+          <span>Produits similaires</span>
+        </h4>
+      </div>
+      <div class="section-content">
+        <div class="col s12 m6 l4">
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="img/grad.jpg">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>
+                  <span class="category-text">Art &amp; Decoration</span>
+                  <span class="product-name">Medina</span>
+                  <span class="price">3 500 &euro;</span>
+                </p>
               </div>
             </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="img/grad.jpg">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>
+                  <span class="category-text">Femme</span>
+                  <span class="product-name">Tunique <br> Mandala</span>
+                  <span class="price">520 &euro;</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 l4">
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="img/grad.jpg">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>
+                  <span class="category-text">Femme</span>
+                  <span class="product-name">Sac Azura</span>
+                  <span class="price">120 &euro;</span>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -110,6 +174,22 @@
     </div>
   </div>
 
+  <div id="search-box" class="row no-bottom-margin white">
+    <div class="container">
+      <br>
+      <h5>
+        <span class="left"><i class="icon ion-android-search"></i> RECHERCHE</span>
+        <span class="right waves-effect" id="close-search">
+          <i class="icon ion-ios-close-outline x3"></i>
+        </span>
+      </h5>
+      <form action="#!" class="row">
+        <div class="col s12">
+          <input type="search" placeholder="MOTS-CLES">
+        </div>
+      </form>
+    </div>
+  </div>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/materialize.min.js"></script>
