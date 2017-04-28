@@ -10,11 +10,11 @@
   <link rel="stylesheet" href="css/artouarzazate.css">
 </head>
 
-<body class="grey lighten-5 no-scroll">
+<body class="grey lighten-5">
   <div class="row brown darken-4" id="top-panel">
     <ul class="right">
-      <li><a href="#!" class="white-text"><i class="icon ion-ios-search left"></i>RECHERCHE</a></li>
-      <li><a href="#!" class="white-text">CONNEXION</a></li>
+      <li><a id="open-search" href="#!" class="white-text"><i class="icon ion-ios-search"></i> RECHERCHE</a></li>
+      <li><a href="#!" class="white-text"><i class="icon ion-person"></i> CONNEXION</a></li>
       <li><a href="#!" class="white-text">PANIER</a></li>
     </ul>
   </div>
@@ -27,7 +27,7 @@
     <ul class="center">
       <li><a href="#!">ACCEUIL</a></li>
       <li><a href="#!" class="active">HOMME</a></li>
-      <li><a href="#!">FEMME</a></li>
+      <li id="activate-femme-drop"><a href="#!">FEMME</a></li>
       <li><a href="#!">DECORATION</a></li>
       <li><a href="#!">ACCESSOIRES</a></li>
       <li><a href="#!">IDEES &amp INSPIRATION</a></li>
@@ -174,7 +174,7 @@
     </div>
   </div>
 
-  <div id="search-box" class="row no-bottom-margin white">
+  <div id="search-box" class="row no-bottom-margin white hide">
     <div class="container">
       <br>
       <h5>
@@ -188,6 +188,42 @@
           <input type="search" placeholder="MOTS-CLES">
         </div>
       </form>
+    </div>
+  </div>
+  <div id="femme-drop" class="row">
+    <div class="col m6">
+      <ul class="left">
+        <li>
+          <a href="#!"><span> SACS &amp; BANDOUILERES </span></a>
+        </li>
+        <li>
+          <a href="#!"><span> ROBES &amp; TUNIQUES </span></a>
+        </li>
+        <li>
+          <a href="#!"><span> CHEMISES </span></a>
+        </li>
+        <li>
+          <a href="#!"><span> PORT-FEUILLES </span></a>
+        </li>
+        <li>
+          <a href="#!"><span> CEINTURES </span></a>
+        </li>
+      </ul>
+    </div>
+    <div class="col m6">
+      <ul class="right">
+        <li>
+          <a href="#"><span> BRACELETS &amp; BAGUES </span></a>
+        </li>
+        <li>
+          <a href="#"><span> CADEAUX POUR ELLE </span></a>
+        </li>
+        <h6 class="solo-product">
+          <span class="title">EN VEDETTE</span>
+          <span class="product_name">SAC CARLA</span>
+          <span class="price">29, 99 &euro;</span>
+        </h6>
+      </ul>
     </div>
   </div>
 

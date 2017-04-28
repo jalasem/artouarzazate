@@ -7,4 +7,14 @@ $(document).ready(function(){
       draggable: true // Choose whether you can drag to open on touch screens
     }
   );
+
+  $('#open-search').click(function(){
+    $('#search-box').removeClass('hide');
+    $('body').addClass('no-scroll');
+  });
+
+  $('#close-search').click(function(){
+    $('#search-box').addClass('hide');
+    $('body').removeClass('no-scroll');
+  });
 })

@@ -13,7 +13,7 @@
 <body class="grey lighten-5">
   <div class="row brown darken-4" id="top-panel">
     <ul class="right">
-      <li><a href="#!" class="white-text">RECHERCHE</a></li>
+      <li><a id="open-search" href="#!" class="white-text"><i class="icon ion-ios-search"></i> RECHERCHE</a></li>
       <li><a href="#!" class="white-text">CONNEXION</a></li>
       <li><a href="#!" class="white-text">PANIER</a></li>
     </ul>
@@ -295,6 +295,22 @@
     </div>
   </div>
 
+  <div id="search-box" class="row no-bottom-margin white hide">
+    <div class="container">
+      <br>
+      <h5>
+        <span class="left"><i class="icon ion-android-search"></i> RECHERCHE</span>
+        <span class="right waves-effect" id="close-search">
+          <i class="icon ion-ios-close-outline x3"></i>
+        </span>
+      </h5>
+      <form action="#!" class="row">
+        <div class="col s12">
+          <input type="search" placeholder="MOTS-CLES">
+        </div>
+      </form>
+    </div>
+  </div>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/materialize.min.js"></script>

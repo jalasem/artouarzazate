@@ -230,9 +230,7 @@ input#email {
     margin-left: 1rem;
 }
 
-#listing-list span.category-text {
-
-}
+#listing-list span.category-text {}
 
 #listing-list span.product-name {
     font-size: 2.5rem;
@@ -288,18 +286,15 @@ ul.pagination {
     margin-bottom: 1rem;
 }
 
-#product-on-product {
+#product-on-product {}
 
-}
-
-.product-heading > span.left{
+.product-heading>span.left {
     text-decoration: underline;
     margin-top: -1rem;
 }
 
-.product-heading > span.right{
+.product-heading>span.right {
     font-weight: 500
-
 }
 
 img[alt="Product Picture"] {
@@ -344,4 +339,111 @@ body.no-scroll {
 
 #search-box input[type="search"] {
     font-size: 2rem;
+}
+
+#femme-drop {
+    position: fixed;
+    top: 13rem;
+    width: auto;
+    left: 24%;
+    border-radius: 0;
+    padding: 0 1.5rem;
+    height: auto;
+    min-height: 5rem;
+    background: white;
+}
+
+#femme-drop .col.m6:last-child {
+    padding-right: 7rem;
+}
+
+#femme-drop ul.right {
+    min-width: 12rem;
+}
+
+#femme-drop::after {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ffffff;
+    position: fixed;
+    top: 27.5%;
+    left: 39%;
+}
+
+#femme-drop li a {
+    color: #5d5348;
+    line-height: 2rem;
+    letter-spacing: 3px;
+}
+
+#femme-drop li {
+    min-width: 120%;
+}
+
+#femme-drop li span {
+    border-bottom: 1px solid #bba894;
+    padding-bottom: 5px;
+}
+
+#femme-drop li:last-child {
+    border-bottom: none;
+}
+
+#femme-drop .solo-product span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#femme-drop .solo-product span.title {
+    display: block;
+    font-size: 0.9rem;
+    color: #9E9E9E;
+    padding-bottom: 4px;
+}
+
+#femme-drop .solo-product span.product_name {
+    display: block;
+    padding-bottom: 0.5rem;
+}
+
+#femme-drop .solo-product span.price {
+    font-weight: bold;
+}
+
+#cart-table tbody td .card {
+    max-width: 8rem;
+}
+
+#cart-table tbody ul {
+    padding: 0;
+    margin: -15px 5px;
+}
+
+#cart-table td ul > li {
+    display: inline;
+}
+
+#cart-table td ul > li ul li {
+    display: block;
+    margin-left: 2rem;
+    padding-top: 0.4rem;
+}
+
+#cart-table td ul > li ul {
+    padding-top: 0.5rem;
+}
+
+#cart-table .box {
+    border: 2px solid #bba894;
+    padding: 0.8rem 1.4rem;
+    font-size: 1.5rem;
+}
+
+#cart-table tbody>tr>td {
+    padding: 15px 5px 0px;
+}
+
+#cart-table td.price {
+    font-size: 1.3rem;
 }
