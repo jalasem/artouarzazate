@@ -447,3 +447,12 @@ body.no-scroll {
 #cart-table td.price {
     font-size: 1.3rem;
 }
+
+#cart-table td span.total, #cart-table td span.tva, #cart-table td span.no_of_products, #cart-table td span.grand-total {
+    font-size: 1.5rem;
+    display: block;
+}
+
+#conditions .container {
+    width: 90%;
+}
