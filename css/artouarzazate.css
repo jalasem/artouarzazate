@@ -345,8 +345,8 @@ body.no-scroll {
     position: fixed;
     top: 13rem;
     width: auto;
+    border: 1px solid rosybrown;
     left: 24%;
-    border-radius: 0;
     padding: 0 1.5rem;
     height: auto;
     min-height: 5rem;
@@ -367,9 +367,9 @@ body.no-scroll {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 10px solid #ffffff;
-    position: fixed;
-    top: 27.5%;
-    left: 39%;
+    position: absolute;
+    top: -5.5%;
+    left: 33%;
 }
 
 #femme-drop li a {
