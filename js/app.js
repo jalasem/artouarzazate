@@ -17,4 +17,11 @@ $(document).ready(function(){
     $('#search-box').addClass('hide');
     $('body').removeClass('no-scroll');
   });
-})
+
+  $('#activate-femme-drop').mouseover(function(){
+    $('#femme-drop').removeClass('hide');
+  });
+  $('#femme-drop').mouseleave(function(){
+    $('#femme-drop').addClass('hide');
+  });
+});
